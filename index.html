@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css">
     <link rel="stylesheet" href="assets/css/frontend-lite.min.css">
+    <link rel="stylesheet" href="assets/css/mobile-menu.css" type="text/css">
     <link rel="" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
@@ -23,121 +24,89 @@
 </head>
 
 <body>
-    <div id="page" class="site page-wrapper">
-
-
-        <header class="main-header clearfix">
-            <div class="main-header__logo">
-                <div class="main-header__logo__shape-1"></div>
-                <!-- /.main-header__logo__shape-1 -->
-                <div class="main-header__logo__shape-2"></div>
-                <!-- /.main-header__logo__shape-2 -->
-                <a href="#">
-                    <img loading="lazy" src="assets/images/logo.svg" id="thm-logo" alt="Brown’s Construction">
+    <div id="wrapper" class="wrapper">
+        <header class="main-header" data-aos="fade-down">
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="header-top">
+                            <div class="top-right">
+                                <a href="mailto:info@browns.ky"><i class="icon-mail"></i> info@browns.ky</a>
+                                <a href="#"><i class="icon-clock"></i>Mon - Sat 9:00 am to 7:00 pm</a>
+                            </div>
+                            <div class="top-left">
+                                <ul class="social-link">
+                                    <li><a href=""><i class="icon-facebook"></i></a></li>
+                                    <li><a href=""><i class="icon-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="header-section">
+                            <div class="logo">
+                                <a href="" title="Brown’s Construction">
+                                    <img src="assets/images/logo.svg" alt="Brown’s Construction">
+                                </a>
+                            </div>
+                            <div class="menu mobile-menu">
+                                <div class="menu_mobile_visibility">
+                                    <a href="" title="Brown’s Construction">
+                                        <img src="assets/images/logo.svg" alt="Brown’s Construction">
+                                    </a>
+                                </div>
+                                <ul>
+                                    <li class="active"><a href="javascript:void(0);" title="Home">Home</a></li>
+                                    <li><a href="javascript:void(0);" title="About Us">About Us</a></li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);" title="Services">Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="javascript:void(0);" title="Services">Services</a></li>
+                                            <li><a href="javascript:void(0);" title="Services">Services</a></li>
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0);" title="Services">Services</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="javascript:void(0);" title="Services">Services</a></li>
+                                                    <li><a href="javascript:void(0);" title="Services">Services</a></li>
+                                                    <li><a href="javascript:void(0);" title="Services">Services</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);" title="Projects">Projects</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="javascript:void(0);" title="Projects">Projects</a></li>
+                                            <li><a href="javascript:void(0);" title="Projects">Projects</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="" title="Testimonials">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="Complaints">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="head_right">
+                                    <div class="call_icon">
+                                        <a href="tel:+11233215632" title="+1(123) 321-5632"><i class="icon-call"></i></a>
+                                    </div>
+                                    <div class="call_num">
+                                        <span>Call Anytime</span>
+                                        <a href="tel:+11233215632" title="+1(123) 321-5632">+1(123) 321-5632</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0)" id="nav-mobile-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </a>
             </div>
-            <div class="main-header__top">
-                <div class="main-header__top-inner">
-                    <div class="main-header__top-address">
-                        <ul class="list-unstyled main-header__top-address-list ml-0">
-                            <li>
-                                <i class="icon-mail">
-										<span  class="  fas fa-envelope"></span>									</i>
-                                <div class="text">
-                                    <p><a href="mailto:info@browns.ky">info@browns.ky</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="icon-clock">
-										<span  class="  fas fa-clock"></span>									</i>
-                                <div class="text">
-                                    <p>Mon to Sat: 09:00 am to 05:00 pm</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="main-header__top-right">
-
-                        <div class="main-header__top-social-box">
-                            <div class="main-header__top-social">
-                                <a class="icon-svg" href="#" target=_blank>
-                                    <i class="icon-facebook"></i> </a>
-                                <a class="icon-svg" href="" target=_blank>
-                                    <i class="icon-instagram"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <nav class="main-menu clearfix">
-                <div class="main-menu__wrapper clearfix">
-                    <div class="main-menu__wrapper-inner clearfix">
-                        <div class="main-menu__left">
-                            <div class="main-menu__main-menu-box">
-                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                <div class="menu-menu-1-container">
-                                    <ul id="menu-menu-1" class="main-menu__list">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li class="dropdown_menu">
-                                            <a href="#">Services</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#">Services</a></li>
-                                                <li><a href="#">Services</a></li>
-                                                <li><a href="#">Services</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Projects</a></li>
-                                        <li><a href="#">Testimonials</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-menu__right">
-                            <div class="main-menu__call">
-
-                                <div class="main-menu__call-icon">
-                                    <span class="icon-call"></span> </div>
-
-                                <div class="main-menu__call-content">
-                                    <p>Call Anytime</p>
-                                    <a href="tel:+11233215632">+1(123) 321-5632</a>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </nav>
         </header>
-
-        <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content"></div>
-            <!-- /.sticky-header__content -->
-        </div>
-        <!-- /.stricky-header -->
-        <div class="mobile-nav__wrapper">
-            <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-            <!-- /.mobile-nav__overlay -->
-            <div class="mobile-nav__content">
-                <span class="mobile-nav__close mobile-nav__toggler"></span>
-
-                <div class="logo-box">
-                    <a href="#">
-                        <img loading="lazy" src="assets/images/logo.svg" id="mobile-thm-logo" alt="Brown’s Construction">
-                    </a>
-                </div>
-                <!-- /.logo-box -->
-                <div class="mobile-nav__container"></div>
-                <!-- /.mobile-nav__container -->
-
-            </div>
-            <!-- /.mobile-nav__content -->
-        </div>
-        <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
         <!-- end of the loop -->
         <!--Main Slider Start-->
         <section class="main-slider clearfix">
@@ -206,13 +175,12 @@
                 </div>
                 <!-- If we need navigation buttons -->
                 <div class="main-slider__nav">
-
                     <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                        <i class=" icon-left-arrow"></i>
+                        <i class="icon-right-big"></i>
                     </div>
 
                     <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                        <i class=" icon-right-arrow"></i>
+                        <i class="icon-right-big"></i>
                     </div>
 
                 </div>
@@ -228,7 +196,7 @@
                         <!--Feature One Single Start-->
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                             <div class="feature-one__single">
-                                <div class="feature-one__top">
+                                <div class="feature-one__top  wow bounceInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
                                     <div class="feature-one__icon icon-svg-large">
                                         <span class="icon-multiuser"></span> </div>
                                     <div class="feature-one__title-box">
@@ -247,7 +215,7 @@
                         <!--Feature One Single Start-->
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                             <div class="feature-one__single">
-                                <div class="feature-one__top">
+                                <div class="feature-one__top  wow bounceInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
                                     <div class="feature-one__icon icon-svg-large">
                                         <span class="icon-user"></span> </div>
                                     <div class="feature-one__title-box">
@@ -266,7 +234,7 @@
                         <!--Feature One Single Start-->
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                             <div class="feature-one__single">
-                                <div class="feature-one__top">
+                                <div class="feature-one__top  wow bounceInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
                                     <div class="feature-one__icon icon-svg-large">
                                         <span class="icon-file"></span> </div>
                                     <div class="feature-one__title-box">
@@ -296,7 +264,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
-                        <div class="about-one__right">
+                        <div class="about-one__right wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                             <div class="section-title text-left">
                                 <span class="section-sub-title">ABOUT Brown’s Construction</span>
                                 <h2 class="section-title__title">We Are Committed To Roofing Excellence
@@ -340,11 +308,11 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="about-one__left">
-                            <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <div class="about-one__img">
+                            <div class="about-one__img-box">
+                                <div class="about-one__img wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <img src="assets/images/weare_02.png" alt="alt">
                                 </div>
-                                <div class="about-small-img">
+                                <div class="about-small-img wow bounceInUp" data-wow-delay="400ms" data-wow-duration="2500ms">
                                     <img src="assets/images/weare_01.png" alt="alt">
                                     <div class="about-count">
                                         <h3>25</h3>
@@ -368,15 +336,14 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="services-one__top-left">
-                                <div class="section-title text-left">
-
+                                <div class="section-title text-left wow slideInLeft" data-wow-delay="150ms" data-wow-duration="2500ms">
                                     <span class="section-sub-title">OUR SERVICES</span>
                                     <h2 class="section-title__title">We’re Providing Quality Construction Services</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6">
-                            <div class="services-one__top-right">
+                            <div class="services-one__top-right wow slideInRight" data-wow-delay="170ms" data-wow-duration="2500ms">
                                 <p class="services-one__top-right-text">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
                                 </p>
@@ -387,8 +354,8 @@
                 <div class="services-one__bottom">
                     <div class="row">
                         <!--Services One Single Start-->
-                        <div class="col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="service_slider owl-carousel owl-theme">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="service_slider owl-carousel owl-theme wow fadeInUp" data-wow-delay="100ms">
                                 <div class="item">
                                     <div class="services-one__single">
                                         <div class="services-one__img">
@@ -471,11 +438,11 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="tetimonial_cont">
-                            <div class="section-title text-left">
+                            <div class="section-title text-left wow slideInLeft" data-wow-delay="200ms" data-wow-duration="2000ms">
                                 <span class="section-sub-title">TESTIMONIALS</span>
                                 <h2 class="section-title__title">What They’re Talking About Company</h2>
                             </div>
-                            <div class="testimonial_slider owl-carousel owl-theme">
+                            <div class="testimonial_slider owl-carousel owl-theme wow slideInRight" data-wow-delay="250ms" data-wow-duration="2500ms">
                                 <div class="item">
                                     <div class="testi-box">
                                         <div class="user_prof">
@@ -578,7 +545,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="need_inner">
+                        <div class="need_inner wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
                             <div class="title_main">
                                 <span class="small_title">QUALITY ROOFING PROVIDER</span>
                                 <h2 class="title">Need General Contractor?</h2>
@@ -596,7 +563,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="footer_inner">
-                            <div class="footer_left">
+                            <div class="footer_left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                                 <div class="f-logo">
                                     <a href="">
                                         <img src="assets/images/footer-logo.svg" alt="">
@@ -636,7 +603,7 @@
                                     <p>Website Designed & Developed By:<a>WEBNEXTA</a></p>
                                 </div>
                             </div>
-                            <div class="footer_right">
+                            <div class="footer_right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                                 <img src="assets/images/footer_img.png" alt="">
                             </div>
                         </div>
@@ -652,6 +619,7 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
     <script src="assets/js/wow.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
     <script src="assets/js/frontend-modules.min.js"></script>
     <script src="assets/js/common.js"></script>
 </body>

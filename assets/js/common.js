@@ -146,3 +146,7 @@ var swiper = new Swiper(".thm-swiper__slider", {
 
     }
 });
+
+$(document).ready(function() {
+    new WOW().init();
+});
