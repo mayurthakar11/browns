@@ -52,7 +52,7 @@ $(window).on("load resize", function() {
     });
     var owl = $('.service_slider.owl-carousel');
     owl.owlCarousel({
-        margin: 15,
+        margin: 30,
         loop: true,
         nav: false,
         dots: false,
@@ -60,20 +60,28 @@ $(window).on("load resize", function() {
         autoplay: false,
         smartSpeed: 1000,
         autoHeight: true,
-        autoWidth: true,
+        autoWidth: false,
         mouseDrag: true,
         animateOut: 'fadeOut',
         responsive: {
             0: {
                 items: 1,
+                dots: true,
             },
-            480: {
+            568: {
                 items: 1,
+                dots: true,
             },
-            1024: {
+            767: {
                 items: 2,
+                dots: true,
+            },
+            991: {
+                items: 2,
+                dots: true,
             },
             1200: {
+                margin: 10,
                 items: 3,
             }
         }
@@ -81,7 +89,7 @@ $(window).on("load resize", function() {
     var owl1 = $('.testimonial_slider.owl-carousel');
     owl1.owlCarousel({
         margin: 15,
-        loop: true,
+        loop: false,
         nav: false,
         dots: false,
         lazyLoad: true,
@@ -91,15 +99,19 @@ $(window).on("load resize", function() {
         autoWidth: true,
         mouseDrag: true,
         animateOut: 'fadeOut',
+        dots: true,
         responsive: {
             0: {
                 items: 1,
+                autoWidth: false,
             },
             480: {
                 items: 1,
+                autoWidth: false,
             },
             1024: {
                 items: 2,
+                autoWidth: false,
             },
             1200: {
                 items: 2,
@@ -142,11 +154,13 @@ var swiper = new Swiper(".thm-swiper__slider", {
         "prevEl": "#main-slider__swiper-button-prev"
     },
     "autoplay": {
-        "delay": 5000
+        "delay": 5000000000
 
     }
 });
 
 $(document).ready(function() {
-    new WOW().init();
+    new WOW({
+        mobile: false,
+    }).init();
 });

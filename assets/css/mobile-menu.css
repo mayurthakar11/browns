@@ -5,13 +5,19 @@
     font-size: 30px;
     line-height: 1;
     padding: 0;
-    position: absolute;
-    right: 15px;
     text-align: center;
-    top: 38px;
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
     z-index: 99;
+}
+
+.mob_icon_main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: -60px;
+    right: 15px;
 }
 
 #nav-mobile-btn span {
