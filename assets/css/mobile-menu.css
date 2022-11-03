@@ -21,8 +21,8 @@
 }
 
 #nav-mobile-btn span {
-    height: 4px;
-    width: 30px;
+    height: 3px;
+    width: 25px;
     background-color: #0055BF;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
 
 .nav-mobile a:hover,
 .nav-mobile a.active {
-    color: #060301;
+    color: #0055BF;
     background: none !important;
     text-decoration: none;
 }
@@ -142,6 +142,7 @@
 .nav-mobile>ul ul {
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     margin: 0;
+    background: #001631;
 }
 
 .nav-mobile::after {
@@ -162,11 +163,12 @@
     transform: translate3d(0px, 0px, 0px);
     -webkit-transform: translate3d(0px, 0px, 0px);
     -moz-transform: translate3d(0px, 0px, 0px);
-    transition: all 0.2s ease 0s;
-    -webkit-transition: all 0.2s ease 0s;
-    -moz-transition: all 0.2s ease 0s;
+    -webkit-transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms, -webkit-transform 500ms ease 500ms;
+    transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms, -webkit-transform 500ms ease 500ms;
+    transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms, transform 500ms ease 500ms;
+    transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms, transform 500ms ease 500ms, -webkit-transform 500ms ease 500ms;
     visibility: visible;
-    background: #337ab7;
+    background: #001631;
 }
 
 .nav-mobile.open::after {

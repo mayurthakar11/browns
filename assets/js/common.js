@@ -53,7 +53,7 @@ $(window).on("load resize", function() {
     var owl = $('.service_slider.owl-carousel');
     owl.owlCarousel({
         margin: 30,
-        loop: true,
+        loop: false,
         nav: false,
         dots: false,
         lazyLoad: true,

@@ -3601,6 +3601,9 @@ ul {
     .section-title__title {
         font-size: 30px;
     }
+    .section-sub-title {
+        font-size: 14px;
+    }
 }
 
 @media(max-width:479px) {
@@ -5979,6 +5982,23 @@ ul {
     }
     .feature-one__icon {
         align-items: center;
+        height: 60px;
+        width: 60px;
+    }
+    .feature-one__icon span {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .feature-one__title {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:479px) {
+    .feature-one__title-box {
+        margin-left: 20px;
     }
 }
 
@@ -6142,6 +6162,15 @@ ul {
         left: auto;
         right: 10px;
         bottom: 10px;
+    }
+    .about-one__points {
+        margin: 20px 0;
+    }
+    .about-one__text {
+        font-size: 14px;
+    }
+    .about-one__right .section-title {
+        margin-bottom: 20px;
     }
 }
 
@@ -6382,9 +6411,22 @@ ul {
     .services-one__single {
         max-width: 100%;
     }
+    .services-one__top-right-text {
+        font-size: 14px;
+    }
+    .services-one__text {
+        font-size: 14px;
+    }
+    .services-one__title {
+        font-size: 16px;
+    }
 }
 
-@media(max-width:767px) {}
+@media(max-width:767px) {
+    .services-one {
+        padding: 30px 0;
+    }
+}
 
 
 /*Testimonial css S*/
@@ -6492,6 +6534,9 @@ ul {
 }
 
 @media(max-width:767px) {
+    .testimonial_sec {
+        padding: 30px 0;
+    }
     .testimonial_sec .tetimonial_cont .section-title .section-title__title {
         font-size: 26px;
     }
@@ -6556,7 +6601,44 @@ ul {
     color: #0055BF;
 }
 
-@media(max-width:1199px) {}
+@media(max-width:1366px) {
+    .need_sec .need_inner .title {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1199px) {
+    .need_sec .need_inner {
+        justify-content: space-around;
+    }
+    .need_sec::before {
+        content: none;
+    }
+}
+
+@media(max-width:767px) {
+    .need_sec {
+        padding: 20px 0;
+    }
+    .need_sec .need_inner .need_btn .thm-btn {
+        padding: 10px;
+    }
+    .need_sec .need_inner .title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:568px) {
+    .need_sec .need_inner {
+        flex-direction: column;
+    }
+    .need_sec .need_inner .need_btn {
+        margin-top: 20px;
+    }
+    .need_sec .need_inner .small_title {
+        font-size: 12px;
+    }
+}
 
 
 /*Need css E*/
@@ -6657,6 +6739,7 @@ ul {
     color: #ffffff;
     font-size: 11px;
     font-weight: 300;
+    line-height: 140%;
 }
 
 .footer_right {
@@ -6671,6 +6754,87 @@ ul {
     }
     .footer .footer_add_info li a:hover {
         color: #0055BF;
+    }
+}
+
+@media(max-width:1366px) {
+    .footer .footer_link li+li {
+        margin-left: 15px;
+    }
+    .footer .footer_add_info li+li {
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:1199px) {
+    .footer_inner {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer_left {
+        width: 100%;
+    }
+    .footer_right {
+        display: none;
+    }
+    .footer .f-logo {
+        text-align: center;
+    }
+    .footer .footer_link {
+        justify-content: center;
+    }
+    .footer .footer_add_info {
+        justify-content: center;
+    }
+    .footer_socail {
+        justify-content: center;
+        margin: 20px 0 0;
+    }
+}
+
+@media(max-width:991px) {
+    .footer {
+        padding: 30px 0;
+    }
+    .footer .footer_add_info li {
+        font-size: 12px;
+    }
+    .footer .footer_add_info li a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:767px) {
+    .footer .footer_link li a {
+        font-size: 12px;
+    }
+    .footer .footer_add_info li+li {
+        margin-left: 10px;
+    }
+    .footer_bottom {
+        flex-direction: column;
+    }
+    .footer_bottom p {
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+    .footer .footer_link {
+        flex-wrap: wrap;
+    }
+    .footer .footer_link li {
+        width: 33.3%;
+        text-align: left;
+    }
+    .footer .footer_link li+li {
+        margin: 0;
+    }
+    .footer .footer_add_info {
+        flex-direction: column;
+    }
+    .footer .footer_add_info li+li {
+        margin: 20px 0 0 0;
     }
 }
 
