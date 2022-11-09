@@ -22,76 +22,78 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-down-arrow:before {
+.icon-left_big:before {
     content: "\e900";
 }
 
-.icon-star:before {
+.icon-down-arrow:before {
     content: "\e901";
 }
 
-.icon-calender:before {
+.icon-star:before {
     content: "\e902";
 }
 
-.icon-call:before {
+.icon-calender:before {
     content: "\e903";
 }
 
-.icon-clock:before {
+.icon-call:before {
     content: "\e904";
 }
 
-.icon-facebook:before {
+.icon-clock:before {
     content: "\e905";
-    color: #4267b2;
 }
 
-.icon-file:before {
+.icon-facebook:before {
     content: "\e906";
 }
 
-.icon-instagram:before {
+.icon-file:before {
     content: "\e907";
-    color: #bc2a8d;
 }
 
-.icon-mail:before {
+.icon-instagram:before {
     content: "\e908";
 }
 
-.icon-map:before {
+.icon-mail:before {
     content: "\e909";
 }
 
-.icon-multiuser:before {
+.icon-map:before {
     content: "\e90a";
 }
 
-.icon-right:before {
+.icon-multiuser:before {
     content: "\e90b";
 }
 
-.icon-right-big:before {
+.icon-right:before {
     content: "\e90c";
 }
 
-.icon-share:before {
+.icon-right-big:before {
     content: "\e90d";
 }
 
-.icon-twitter:before {
+.icon-share:before {
     content: "\e90e";
 }
 
-.icon-user:before {
+.icon-twitter:before {
     content: "\e90f";
 }
 
-.icon-what:before {
+.icon-user:before {
     content: "\e910";
 }
 
-.icon-youtube:before {
+.icon-what:before {
     content: "\e911";
+}
+
+.icon-youtube:before {
+    content: "\e912";
 }

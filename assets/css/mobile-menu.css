@@ -315,7 +315,7 @@
     }
     .is-open:before {
         position: absolute;
-        content: "\e900";
+        content: "\e901";
         color: #0055BF;
         font-family: 'icomoon';
         left: 0;
