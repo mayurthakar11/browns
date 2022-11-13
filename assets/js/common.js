@@ -124,18 +124,18 @@ $(window).on("load resize", function() {
 
 
 // isotop S
-// $(window).on('load', function() {
-//     setTimeout(function() {
-//         $('.grid').isotope();
-//     }, 1000);
-// });
-// $('.grid').isotope({
-//     itemSelector: '.grid-item',
-//     percentPosition: true,
-//     masonry: {
-//         columnWidth: '.grid-sizer'
-//     }
-// });
+$(window).on('load', function() {
+    setTimeout(function() {
+        $('.grid').isotope();
+    }, 1000);
+});
+$('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+        columnWidth: '.grid-sizer'
+    }
+});
 // isotop E
 
 
