@@ -91,7 +91,7 @@ $(window).on("load resize", function() {
         margin: 15,
         loop: false,
         nav: false,
-        dots: false,
+        dots: true,
         lazyLoad: true,
         autoplay: false,
         smartSpeed: 1000,
@@ -99,7 +99,6 @@ $(window).on("load resize", function() {
         autoWidth: true,
         mouseDrag: true,
         animateOut: 'fadeOut',
-        dots: true,
         responsive: {
             0: {
                 items: 1,
@@ -115,6 +114,33 @@ $(window).on("load resize", function() {
             },
             1200: {
                 items: 2,
+            }
+        }
+    });
+    var owl2 = $('.project-list-slider.owl-carousel');
+    owl2.owlCarousel({
+        margin: 0,
+        loop: true,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        smartSpeed: 1000,
+        mouseDrag: true,
+        responsive: {
+            0: {
+                items: 1,
+                autoWidth: false,
+            },
+            480: {
+                items: 1,
+                autoWidth: false,
+            },
+            1024: {
+                items: 1,
+                autoWidth: false,
+            },
+            1200: {
+                items: 1,
             }
         }
     });

@@ -7069,3 +7069,77 @@ input[required]:valid+label {
 
 
 /* Contact page E */
+
+
+/* Project List S */
+
+.project-list-main .project_box {
+    background: #fff;
+    box-shadow: 0px 20px 30px #CFCFCF4F;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.project-list-main .project_box .thumbnail_container {
+    padding-bottom: 64%;
+}
+
+.project-list-main .project_box .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0055BF;
+}
+
+.project-list-main .project_box .box-content {
+    padding: 30px 20px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -khtml-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.project-list-main .project_box .box-content::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    width: 8px;
+    background: #0055BF;
+    border-radius: 0 0 0 20px;
+}
+
+.list-loc li {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #001631;
+}
+
+.list-loc li i {
+    margin-right: 10px;
+}
+
+@media(min-width:1200px) {
+    .project-list-main .project_box:hover {
+        background: #f2f2f2;
+    }
+}
+
+@media(max-width:767px) {
+    .project-list-main .project_box .box-content {
+        padding: 20px;
+    }
+    .list-loc li {
+        margin-top: 10px;
+    }
+}
+
+
+/* Project List E */
