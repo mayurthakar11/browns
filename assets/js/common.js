@@ -126,6 +126,7 @@ $(window).on("load resize", function() {
         autoplay: true,
         smartSpeed: 1000,
         mouseDrag: true,
+        autoplayHoverPause: true,
         responsive: {
             0: {
                 items: 1,
